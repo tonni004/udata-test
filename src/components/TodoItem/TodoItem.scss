@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.TodoItem{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ItemData {
+    margin-bottom: 15px;
+    color: $data-color;
+    font-size: 12px;
+    text-align: end;
+}
+
+.ButtonField {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DeleteBtn {
+    margin-top: 15px;
+    width: 50px;
+}
